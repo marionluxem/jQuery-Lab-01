@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:900');
+
+/* set body font to Roboto */
+body {
+    background-color: #E1D7D4;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal, 700;
+
+}
+/* create flex box */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* set heading font to Rubik */
+#new-reservation {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+/* set heading font to Rubik */
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+/* center font and change color */
+#title-container > h2 {
+    color: #E34E45;
+    text-align: center;
+}
+/* fix spacing between text */
+.subheading {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+/* create flex box for circles */
+#tables-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 2%;
+}
+/* create circle shapes for buttons */
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    margin: 10px;
+}
+/* flex box for form */
+#form-container {
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    width: 325px;
+    position: absolute;
+    margin-top: 80px;
+    padding: 25px;
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+    border-radius: 2%;
+}
+/* style button */
+#save-button {
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+    background-color: #008000;
+    border: 0;
+    padding: 0;
+    font-size: 70%;
+    margin-top: 25px;
+    height: 30px;
+    color: white;
+}
+/* style input fields */
+input {
+    border: 0;
+    border-bottom: solid 1px #CCC;
+    margin-top: 25px;
+}
+/* style x button */
+#x-button {
+    width: 25px;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    align-self: flex-end;
+    color: #CCC;
+    background-color: white;
+}
+/* hide form */
+.hide {
+    display: none;
+}
+/* show form */
+.show {
+    display: flex;
+}
+/* mouse over for available */
+.available {
+    cursor: pointer;
+    background-color: #EEE;
+}
+/* mouse over for reserved */
+.reserved {
+    cursor: not-allowed;
+    background-color: #ADAAAA;
+    color: white;
+}
+/* change color of title */
+#new-reservation {
+    color: #E34E45;
+
+}

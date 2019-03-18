@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <main class="container">
+        <div id="title-container">
+            <h2>Table Finder</h2>
+            <p class="subheading">Pick your table now</p>
+        </div>
+<!-- circle buttons for tables here -->
+        <div id="tables-container">
+            <button id="table-1" class="available circle">1</button>
+            <button id="table-2" class="available circle">2</button>
+            <button id="table-3" class="available circle">3</button>
+            <button id="table-4" class="available circle">4</button>
+            <button id="table-5" class="available circle">5</button>
+            <button id="table-6" class="available circle">6</button>
+            <button id="table-7" class="available circle">7</button>
+            <button id="table-8" class="available circle">8</button>
+            <button id="table-9" class="available circle">9</button>
+        </div>
+<!-- form here -->
+        <div id="form-container" class="hide">
+            <button id="x-button">x</button>
+            <h2 id="new-reservation">New Reservation</h3>
+            <p>Table Number: <span id="table-number">1</span></p>
+            <input id="name" type="text" placeholder="Name" required/>
+            <input id="phone-number" type="number" placeholder="Phone Number" required/>
+            <input id="group-size" type="number" placeholder="Group Size" required/>
+            <button id="save-button">SAVE</button>
+        </div>
+    </main>
+<!-- remember to paste jQuery above js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
